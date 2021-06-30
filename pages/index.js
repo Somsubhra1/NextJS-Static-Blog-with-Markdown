@@ -5,7 +5,6 @@ export default function Home() {
     <div>
       <Head>
         <title>Dev Blog</title>
-        <h2>Hello</h2>
       </Head>
     </div>
   );
