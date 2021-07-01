@@ -13,7 +13,7 @@ export default function Home({ posts }) {
       </Head>
       <div className="posts">
         {posts.map((post, index) => (
-          <Post post={post} />
+          <Post post={post} key={index} />
         ))}
       </div>
     </div>
